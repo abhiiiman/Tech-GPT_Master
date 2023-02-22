@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>healthwise.AI</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'>
+<link rel="stylesheet" href="/css/loginStyle.css">
+</head>
+
+
+<!-- Animated Wave Background  -->
+<div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+<body>
+    <header>
+        <h2 class = "logo">healthwise.AI</h2>
+        <nav class = "navigation">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+        <!-- Log In Form Section -->
+<section>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Sign Up</h1>
+                <br><h6>You'll be Signed Up as Patient</h6>
+                <label>
+                    <input type="text" placeholder="Username"/>
+                </label>
+                <label>
+                    <input type="text" placeholder="Name"/>
+                </label>
+                <label>
+                    <input type="email" placeholder="Email"/>
+                </label>
+                <label>
+                    <!-- <input type="date" placeholder="D.O.B"/> -->
+                    <input type="text" placeholder="D.O.B"/>
+                </label>
+                <label>
+                    <input type="text" placeholder="Gender"/>
+                </label>
+                <label>
+                    <input type="password" placeholder="Password"/>
+                </label>
+                <a href="/loginDoctor.html">Register as Doctor</a>
+                <button style="margin-top: 9px">Patient Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Login</h1><br>
+                <h6>You'll be Logged in as Patient</h6><br>
+                <label>
+                    <input type="email" placeholder="Email"/>
+                </label>
+                <label>
+                    <input type="password" placeholder="Password"/>
+                </label>
+                <a href="/loginDoctor.html">Login as Doctor</a>
+                <button>Patient Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Log in to your Account</h1>
+                    <p>Login as Doctor or Patient</p>
+                    <button class="ghost mt-5" id="signIn">Login Now</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Create New Account</h1>
+                    <p>Register as Doctor or Patient</p>
+                    <button class="ghost" id="signUp">Register Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'>
+
+  </script><script  src="./js/loginJS.js"></script>
+</body>
+</html>
